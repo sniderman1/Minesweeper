@@ -1,0 +1,83 @@
+h1{
+	text-align: center;
+	font-family: fantasy;
+    font-size: -webkit-xxx-large;
+}
+
+.square{
+
+	height: 25px;
+	width: 25px;
+	border: solid 1px rgb(0,0,0) ;
+	background: linear-gradient(to top left, #009900 17%, #00ff00 100%);
+	float: right;
+	text-align: center;
+	cursor: default;
+}
+
+.squareClicked{
+	background: #334812;
+    font-family: cursive;
+	color: white;
+	font-weight: bold;
+}
+
+.squareBomb{
+	background: red;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+.bombMarker{
+    background: yellow;
+    font-size: 25px;
+}
+.container{
+
+	width: 825px;
+  height: 25px;
+  margin: auto;
+}
+
+.board{
+	width: 55%;
+	margin:0px auto;
+}
+
+.downPress{
+	background: white;
+}
+
+.boardTop{
+	display: flex;
+	font-family: cursive;
+}
+
+.bombs{
+	float: right;
+	text-align: right;
+}
+
+.displays{
+	width: 25%;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+button{
+	padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 10px;
+	font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    background: #ffb3ab;
+
+}
+
+#message{
+	text-align: center;
+}
